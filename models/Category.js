@@ -27,5 +27,4 @@ Category.init(
   }
 );
 
-module.exports = Category;const { Model, DataTypes } = require('sequelize');
-
+module.exports = Category;
