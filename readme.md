@@ -1,9 +1,9 @@
 # Bodacious Business Backend
 ## Description
 
-A promising back-end structure for an e-commerce site that utilizes Express ad Sequelize technologies. Allows the user to view and manage data from an inventory database.
+A back end infrastructure using MySQL, express, and Sequelize. 
 
-> Check out this video demo for a better insight to how this one works.
+### Demo => [HERE](https://www.youtube.com/watch?v=VO2AQaFwH8o)
 
 
 ## Installation
@@ -23,3 +23,12 @@ npm run seed
 ```
 
 3. Congrats! You're fully installed, seeded, and ready to roll!
+
+## Usage 
+1. Enter your MySQL information into the .env file 
+2. Open a terminal at the directory root and use 
+    ```bash
+    npm start
+    ```
+3. If ``` listening on port 3001 ``` shows your node server is running correctly 
+4. Open Insomnia and follow along individual CRUD functions in the routes folder.

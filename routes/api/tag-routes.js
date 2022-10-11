@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const { Tag, Product, ProductTag } = require('../../models');
 
-// The `/api/tags` endpoint
+//`/api/tags`
 
 router.get('/', async (req, res) => {
   try {
@@ -14,7 +14,6 @@ router.get('/', async (req, res) => {
 
   } catch (err) {
     console.log(err);
-
     res.status(500).json(err);
   };
 });
@@ -45,7 +44,6 @@ router.post('/', async (req, res) => {
 
     } catch (err) {
     console.log(err);
-
     res.status(500).json(err);
   };
 });
@@ -60,7 +58,6 @@ router.put('/:id', async (req, res) => {
 
   } catch(err) {
     console.log(err);
-    
     res.status(500).json(err);
   };
 });
